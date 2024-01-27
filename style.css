@@ -1,0 +1,84 @@
+body{
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.name{
+    font-size: 50px;
+}
+
+.card {
+    /* background-color: rgb(222, 231, 238); */
+    border-radius: 20px;
+    padding: 5px 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.bg-yellow{
+    background-color: #fff9dc;
+}
+
+.bg-red{
+    background-color: #ffe5e5;
+}
+
+.bg-green{
+    background-color: #e5ffe7;
+}
+
+.bg-blue{
+    background-color: rgb(222, 231, 238);
+}
+
+/* Add this to style.css */
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-member{
+        border-bottom: 1px ;
+  
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .name{
+        font-size: 25px;
+        padding: 0 30px;
+        text-align: left;
+    }
+
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
